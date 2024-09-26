@@ -13,14 +13,16 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
-            Text("Hello, world!")
-            Text("Hello, world!")
+            Button("Aperte aqui") {
+                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+            }
+            Rectangle()
         }
         .padding()
+        
     }
 }
-
+ 
 #Preview {
     ContentView()
 }
